@@ -1,0 +1,37 @@
+.banner img
+{
+    /* background-image: url('../../../assets/image/undraw_quick_chat_re_bit5.svg'); */
+    height: 544px;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content
+{
+    top: 60%;
+    left: 20%;
+    position: absolute;
+}
+
+.content a
+{
+    text-decoration: none;
+    background-color: rgb(50, 94, 226);
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #000000;
+}
+
+.name
+{
+    top: 80%;
+    left: 20%;
+    position: absolute;
+}
